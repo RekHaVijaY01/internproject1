@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+
+ul,h1,li,p{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    
+}
+li:hover{
+    color:palegoldenrod;
+    cursor:pointer;
+
+}
+p:hover{
+ 
+    cursor:pointer;
+}
+.main{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    padding: 25px;
+    width:100%
+    
+}
+.part1{
+    width:50%;
+}
+.part2{
+    color:white;
+    width:50%;
+    text-align: center;
+    padding:10%;
+
+}
+.main2{
+    background: 700px;
+    background-color:white;
+    width:100%;
+    color:black;
+    display: flex;
+}
+
+
+.section1{
+    width:25%;
+    color: black;  
+    margin:35px ; 
+    text-align: center;
+    background-color: burlywood;
+}
+input:hover{
+    background-color:olive;
+    
+}
+.section2{
+    
+    width:75%;
+    display:flex;
+    justify-content: space-between;
+    
+    padding-left: 20px;
+    margin: 25px;
+    text-align: center;
+}
+.bag1{
+    width:25%;
+    padding:20px;
+}
+.bag2{
+    width:25%;
+    padding:20px;
+}
+.bag3{
+    width:25%;
+    padding: 20px;
+}
+.bag1:hover{
+    background-color: khaki;
+}
+
+.bag2:hover{
+    background-color: khaki;
+}
+.bag3:hover{
+    background-color: khaki;
+
+}
+.shopbtn{
+    background-color:brown;
+    color:white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.add{
+
+   background-color:chocolate;
+    color:black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.main3{
+    text-align: center;
+    margin:25px;
+    padding-bottom: 12px;
+    background-color: cadetblue;
+}
+.image{
+    display: flex;
+    justify-content:space-around;
+    margin:30px;
+    text-align: center;
+    
+}
+.box1{
+    padding:20px;
+}
+.box2{
+    padding:20px;
+}
+.box3{
+    padding:20px;
+}
+.box4{
+    padding:20px;
+}
+.section:hover{
+    cursor:pointer;
+    
+}
+.about{
+    width:100%;
+    text-align: center;
+    background-color:grey;
+    color:black;
+    display:flex;
+    padding: 25px;
+}
+    
+.box4:hover{
+       background-color: khaki;
+}
+.box3:hover{
+    background-color: khaki;
+}
+.box2:hover{
+    background-color: khaki;
+}
+.box1:hover{
+    background-color: khaki;
+}
+.about1{
+    width:25%;
+}
+.about2{
+    width:25%;
+}
+.about3{
+    width:25%;
+}
+.about4{
+    width:25%;
+    
+    
+}
+
+
+.end{
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+   
+    
+}
+@media (max-width: 768px) {
+    .info nav ul {
+        text-align: center;
+    }
+
+    .info nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .main2 .section2 div {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h4 {
+        font-size: 1.2em;
+    }
+
+    .main2 .section2 div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about div {
+        text-align: center;
+    }
+
+    .end h5 {
+        font-size: 0.9em;
+    }
+}
+
+
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
